@@ -1,6 +1,3 @@
-%% list.erl
-%% Реализация задач Эйлера с использованием list comprehensions
-
 -module(list).
 -export([euler9/0, euler21/0]).
 
@@ -32,7 +29,7 @@ euler21() ->
     lists:sum([
         N
         || N <- lists:seq(2, 9999),
-           M <- [d(N)],      %% вместо M = d(N)
+           M <- [d(N)],    
            M =/= N,
            d(M) =:= N
     ]).

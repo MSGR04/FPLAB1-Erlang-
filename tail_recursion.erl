@@ -1,6 +1,3 @@
-%% tail_recursion.erl
-%% Монолитные решения двух задач с хвостовой рекурсией
-
 -module(tail_recursion).
 -export([euler9/0, euler21/0]).
 
